@@ -1,4 +1,4 @@
-package com.ws.common.kit.ExcelUtil;
+package com.ws.common.kit.excel;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

@@ -1,6 +1,6 @@
-package com.ws.common.kit;
+package com.ws.common.kit.excel;
 
-import com.ws.common.kit.ExcelUtil.ReadExcelUtil;
+import com.ws.common.kit.excel.ReadExcelUtil;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.List;

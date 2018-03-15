@@ -1,4 +1,4 @@
-package com.ws.common.kit.ExcelUtil;
+package com.ws.common.kit.excel;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.Lists;

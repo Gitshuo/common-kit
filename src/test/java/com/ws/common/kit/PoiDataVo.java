@@ -1,6 +1,6 @@
 package com.ws.common.kit;
 
-import com.ws.common.kit.ExcelUtil.PropParse;
+import com.ws.common.kit.excel.PropParse;
 import java.io.Serializable;
 import org.apache.commons.lang.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
