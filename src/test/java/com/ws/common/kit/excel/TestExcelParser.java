@@ -1,6 +1,6 @@
 package com.ws.common.kit.excel;
 
-import com.ws.common.kit.excel.ReadExcelUtil;
+import com.ws.common.kit.PoiDataVo;
 import java.io.File;
 import java.io.FileInputStream;
 import java.util.List;
@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
  */
 public class TestExcelParser {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(TestMain.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(TestExcelParser.class);
 
     @Test
     public void readPoiData() {
@@ -23,8 +23,8 @@ public class TestExcelParser {
         try {
 
             FileInputStream fis = new FileInputStream(new File(dirName + fileName));
-            List<PoiData> poiDataVos = ReadExcelUtil.readExcel(fileName, fis, PoiData.class, 2);
-            for (PoiData vo : poiDataVos) {
+            List<PoiDataVo> poiDataVos = ReadExcelUtil.readExcel(fileName, fis, PoiDataVo.class, 2);
+            for (PoiDataVo vo : poiDataVos) {
                 LOGGER.info("POI数据信息:{}", vo);
             }
         } catch (Exception e) {
